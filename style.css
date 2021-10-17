@@ -1,0 +1,302 @@
+background:url('/')}*{cursor:url('https://i.postimg.cc/WpM0fH8d/901307.png'), auto}*                                        
+ 
+/*--------------------SCROLLBAR--------------------*/                                       
+::-webkit-scrollbar {                                       
+    width:13px;                                       
+    height:13px;                                       
+    background-color:#fcfcfc;                                       
+}                                       
+ 
+::-webkit-scrollbar-thumb {                                       
+    border-top:8px solid #fcfcfc;                                       
+    border-right:6px solid #fcfcfc;                                       
+    border-bottom:8px solid #fcfcfc;                                       
+    border-left:6px solid #fcfcfc;                                       
+    background-color:#666;                                       
+}                                       
+ 
+::-webkit-scrollbar-track {                                       
+    border-top:8px solid #fcfcfc;                                       
+    border-right:6px solid #fcfcfc;                                       
+    border-bottom:8px solid #fcfcfc;                                       
+    border-left:6px solid #fcfcfc;                                       
+    background-color:#e5e5e5;                                       
+}                                       
+ 
+/*--------------------BASICS--------------------*/                                       
+body {                                       
+background:#fcfcfc;background-image:url('https://i.ibb.co/Krq49G3/ffddde.png');                                       
+background-attachment:fixed;                                       
+background-repeat:repeat;                                       
+color:#888;                                       
+cursor:normal;                                       
+font-family:karla;                                       
+font-weight:300;                                       
+line-height:1.6em;                                       
+font-size:12px;                                       
+text-align:left;                                       
+}                                       
+ 
+/*--------------------LINKS--------------------*/                                       
+a {                                       
+color:#000;                                       
+text-decoration:none;                                       
+}                                       
+ 
+a, svg, .cl-text {                                       
+    -webkit-transition: all 0.4s ease-in-out;                                       
+    -moz-transition: all 0.4s ease-in-out;                                       
+    -o-transition: all 0.4s ease-in-out;                                       
+}                                       
+ 
+a:hover {text-decoration:none;}                                       
+ 
+img {opacity:1;text-decoration:none;}                                       
+ 
+h1, h2, h3, h4, h5, h6 {                                       
+    font-size:calc(12px + 1px);                                       
+    font-family:quicksand;                                       
+    font-weight:normal;                                       
+    text-transform: uppercase;                                       
+    letter-spacing: 3px;                                       
+    text-align:left;                                       
+}                                       
+ 
+.h1c {text-align:center}                                       
+h1, h2, h3, h4, h5, h6, .h1c {color:#222;}                                       
+ 
+.pp.r {                                       
+    margin-top:0.8em;                                       
+}                                       
+ 
+/* sidebar */                                       
+#side-v-1 {                                       
+    top:0;margin-top:10px;margin-left:150px;                                       
+    height:100vh;                                       
+    width:250px;                                       
+    display:table;                                       
+}                                       
+ 
+#side-v-2 {                                       
+    display:table-cell;                                       
+    vertical-align:middle;                                       
+}                                       
+ 
+.s-head {                                       
+    position:relative;                                       
+    width:100%;                                       
+    min-height:75px;                                       
+    vertical-align:middle;                                       
+}                                       
+ 
+/* rest of the sidebar */                                       
+.avi {                                       
+    position:relative;                                       
+    display:block;                                       
+    margin:calc((-64px / 2) - 8px) auto auto auto;                                       
+    width:64px;                                       
+    height:64px;                                       
+    background:#fff;                                       
+    border-radius:100%;                                       
+    border:5px solid #fff;                                       
+}                                       
+ 
+.space {                                       
+    margin-top:calc((-64px / 2) - 8px);                                       
+    padding:calc((64px / 2) + 8px) 20px 20px;                                       
+    background:#fff;                                       
+    border-radius:10px;                                       
+}                                       
+ 
+.desc-tit {                                       
+    margin-top:calc(20px - 8px - 1px);                                       
+    font-family:quicksand;                                       
+    font-size:13px;                                       
+    text-transform:uppercase;                                       
+    letter-spacing:2px;                                       
+    color:#333;                                       
+    text-align:center;                                       
+}                                       
+ 
+.desc {                                       
+    margin-top:calc(20px - (8px / 2) - ((1.8em - 1em) / 2));                                       
+    margin-bottom:calc(((1.8em - 1em) / 2) * -1);                                       
+    font-size:12px;                                       
+    line-height:1.8em;                                       
+    color:#a2a2a2;                                       
+    text-align:center;                                       
+}                                       
+ 
+.desc b, .desc strong {color:#888;}                                       
+.desc i, .desc em {color:#888;}                                       
+ 
+.navlinks {                                       
+    margin-top:calc(20px + 4px);                                       
+    text-align:center;                                       
+    cursor:pointer;                                       
+}                                       
+ 
+.navlinks a {                                       
+    display:inline-block;                                       
+    margin:0 -3px;                                       
+    padding:0 8px;                                       
+}                                       
+ 
+.navlinks svg {                                       
+    width:12px;height:12px;                                       
+    color:#333;                                       
+    stroke-width:2px;                                       
+}                                       
+/*---------------------POSTS------------------------*/                                        
+::-webkit-scrollbar{                                       
+ height:5px;                                        
+ width:7px;                                        
+ background:transparent!imp0rtant;                                       
+}                                       
+ 
+::-webkit-scrollbar-thumb{                                       
+ background:#EF86AC;                                       
+}                                       
+ 
+a:link, a:active, a:visited{                                       
+ color:#EF86AC;                                       
+ text-decoration:none;                                       
+}                                       
+ 
+a:hover{                                       
+ color:#777;                                       
+}                                       
+ 
+.outer{                                       
+ position:absolute;                                       
+ top:10px;                                        
+ right:200px;                                       
+ width:550px;                                       
+ height:600px;                                       
+ background:#fff;                                       
+ border-radius:10px;                                       
+}                                       
+ 
+.title{                                       
+ position:absolute;                                       
+ top:0px;                                       
+ left:0px;                                       
+ width:540px;                                       
+ height:30px;                                       
+ font-size:20px;                                       
+ font-family:georgia;                                       
+ background:#FFBFD6;                                       
+ color:#fff;                                       
+ letter-spacing:-1px;                                       
+ font-style:italic;                                       
+ text-align:right;                                       
+ border-top-left-radius:10px;                                       
+ border-top-right-radius:10px;                                       
+ padding-top:10px;                                       
+ padding-right:10px;                                       
+}                                       
+ 
+#holder{                                       
+    position:absolute;                                       
+    top:40px;                                       
+    left:0px;                                       
+ width:100%;                                       
+ height:500px;                                       
+ overflow:auto;                                       
+}                                       
+/* PAGINATION                            
+*************************************************************************** */                            
+ 
+.pagination{                            
+    position:absolute;                            
+ bottom:0px;                            
+ left:0px;                            
+ width:100%;                            
+ height:30px;                            
+ font-size:15px;                            
+ background:#FFBFD6;                            
+ color:#fff;                            
+ text-align:left;                            
+ border-bottom-left-radius:10px;                            
+ border-bottom-right-radius:10px;                            
+ padding-top:10px;                            
+}                            
+ 
+.pagination a{                            
+    color:#fff;                            
+    margin:0px 10px;                            
+}                                       
+.posts{                                       
+ margin:20px auto 60px;                                       
+ width:400px;                                       
+ padding:10px;                                       
+ border-bottom:1px solid #FFBFD6;                                       
+}                                       
+ 
+#footer{                                       
+    position:relative;                                       
+    margin:5px auto 0px;                                       
+    width:100%;                                       
+}                                       
+ 
+#w-likereblogbuttons{                                       
+    position:relative;                                       
+    float:left;                                       
+    display:inline-block;                                       
+    margin:4px 5px;                                       
+    width:31px;                                       
+    height:12px;                                       
+}                                       
+ 
+ 
+.w-likebutton,                                       
+.w-reblogbutton{                                       
+    position:absolute!imp0rtant;                                       
+    width:12px;                                       
+    height:12px;                                       
+    line-height:3px;                                       
+}                                       
+ 
+.w-likebutton{top:0px;left:0px;}                                       
+.w-reblogbutton{top:0px;left:18px;}                                       
+.w-reblogbutton a svg{fill:#FFBFD6;}                                       
+ 
+.notas{display:inline-block;float:left;font-size:10px;}                                       
+ 
+.date{display:inline-block;float:right;font-size:10px;}                                       
+ 
+.tags{display:inline-block;width:100%;margin:3px auto 3px;font-size:10px;}                                       
+ 
+.custom-like-button {position: relative;display: block;width: 12px;height: 13px;cursor: pointer;}                                       
+ 
+/* class for the Tumblr Like Button iframe */                                       
+.like_button {position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;opacity: 0;z-index: 10;}                                       
+ 
+/* Force iframe to fill button */                                       
+.like_button iframe {width: 100% !imp0rtant;height: 100% !imp0rtant;}                                       
+ 
+/* class for Our Like Button */                                       
+.our_button {position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;z-index: 1;}                                       
+ 
+.our_toggle svg{fill:#FFBFD6;}                                       
+ 
+/* Liked State */                                       
+.like_button.liked{                                       
+  margin-top:-1.5px;                                       
+}                                       
+ 
+.like_button:hover{opacity:0;z-index:0;}                                       
+.like_button.liked{opacity:1;}                                       
+ 
+.rebloggedct video{max-width:400px;margin:0px;}                                       
+ 
+.linearebloggedct{width:100%;height:1px;border-bottom:1px dashed #FFBFD6;margin-bottom:10px;}                                       
+.linearebloggedct:first-child{border-bottom:none;}                                       
+ 
+.reblogctimage{;float:left;width:15px;margin:0px 5px 0px 0px;display:inline-block;}                                       
+ 
+[name=datoslink]{text-decoration:none;color:#FFFFFF;font-family:impact;letter-spacing:5px;font-size:15px}                                                                                                  
+[name=links]{position:absolute;margin-top:-45px;margin-left:-155px}                                                                                                              
+[name=rrss]{text-decoration:none;color:#C4C4C4;font-family:courier;letter-spacing:5px;position:absolute;margin-top:565px;margin-left:530px}                                                                                                                 
+[name=post]{z-index:18;margin-top:-25px;margin-left:350px;background-color:none;width:0px;height:270px;position:absolute;}                                                                                                                 
+[name=postimg]{display:block;max-width:0px;margin-top:13px;margin-left:300px;position:absolute}::-webkit-scrollbar{height:7px;width:3px;
